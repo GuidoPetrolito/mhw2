@@ -37,6 +37,8 @@ function clickR(event) {
     delete BoxesMap.one;
     delete BoxesMap.two;
     delete BoxesMap.three;
+    
+    boolean = 0;
 
     for (const box of boxes) {
         box.addEventListener('click', selezione);
